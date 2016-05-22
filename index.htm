@@ -13,6 +13,28 @@
 
     </head>
     <body>
+        <table>
+            <tr class="menuBar" >
+                <td>
+                    page
+                </td>
+                <td>
+                    page
+                </td>
+                <td>
+                    page
+                </td>
+                <td>
+                    page
+                </td>
+                <td>
+                    page
+                </td>
+                <td>
+                    page
+                </td>
+            </tr>
+        </table>
         <div class="ssContainer">
             <div class="arrow-container" >
                 <svg class="arrow-svg">
@@ -30,4 +52,10 @@
             </div>
         </div>
     </body>
+    <script>
+        sugarStar.init();
+        $(".menuBar").on("click",function(event){
+            sugarStar.open(event);
+        });
+    </script>
 </html>

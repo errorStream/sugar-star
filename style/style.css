@@ -1,8 +1,10 @@
 .ssContainer{
     width: 300px;
+    position: absolute;
+    display: none;
 }
 
-.list-container{
+.ssContainer .list-container{
     width:100%;
     background-color: #fff7b6;
     padding: 10px 10px;
@@ -12,7 +14,7 @@
     border-radius: 10px;
 }
 
-.list-container li{
+.ssContainer .list-container li{
     background-color:  #fff393;
     width: 100%;
     list-style: none;
@@ -21,17 +23,26 @@
     color: #3E3E3E;
 }
 
-.list-container ul{
+.ssContainer .list-container li:hover{
+    background-color:  #fffad5;
+}
+
+.ssContainer .list-container li:active{
+    background-color:  #ffeb53;
+}
+
+.ssContainer .list-container ul{
     padding-left: 0px;
 }
 
-.arrow-svg{
+.ssContainer .arrow-svg{
     height: 30px;
     position: relative;
     bottom: -10px;
     left: 10px;
+    width: 40px;
 }
 
-.arrow-path{
+.ssContainer .arrow-path{
     fill: #fff7b6;
 }
